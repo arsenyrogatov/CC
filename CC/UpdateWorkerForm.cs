@@ -33,7 +33,8 @@ namespace CC
             
             if (ewFio_textBox.Text.Length > 0 && ewPas1_maskedTextBox.MaskCompleted
                 && ewPas2_maskedTextBox.MaskCompleted && ewJob_textBox.Text.Length > 0
-                && ewPhone_maskedTextBox.MaskCompleted && ewMail_textBox.Text.Length > 0)
+                && ewPhone_maskedTextBox.MaskCompleted && ewMail_textBox.Text.Length > 0
+                && ewFio_textBox.Text.All(char.IsLetter))
             {
                 Worker worker = new Worker(CurrentWorker.Id,
                     ewFio_textBox.Text, int.Parse(ewPas1_maskedTextBox.Text),
@@ -52,6 +53,18 @@ namespace CC
                 {
                     MessageBox.Show("Такие данные уже существуют!");
                 }
+            }
+            else
+            {
+                MessageBox.Show("Проверьте введенные данные!");
+            }
+        }
+
+        private void ewFio_textBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

@@ -18,9 +18,65 @@ namespace CC
             UpdateCurrentWorker();
             ewBirth_dateTimePicker.MaxDate = DateTime.Now.AddYears(-18);
             matEd_comboBox.SelectedIndex = 0;
+
+            if (CurrentWorker.Job == "Менеджер по продажам")
+            {
+                tabControl1.TabPages.Remove(Workers_tabPage);
+                //tabControl1.TabPages.Remove(Materials_tabPage);
+                tabControl1.TabPages.Remove(clients_tabPage);
+                //tabControl1.TabPages.Remove(projects_tabPage);
+                tabControl1.TabPages.Remove(Supplier_tabPage);
+                tabControl1.TabPages.Remove(brigade_tabPage);
+                tabControl1.TabPages.Remove(work_tabPage);
+                tabControl1.TabPages.Remove(matCon_tabPage);
+            }
+            if (CurrentWorker.Job == "Аритектор")
+            {
+                tabControl1.TabPages.Remove(Workers_tabPage);
+                tabControl1.TabPages.Remove(Materials_tabPage);
+                tabControl1.TabPages.Remove(clients_tabPage);
+                //tabControl1.TabPages.Remove(projects_tabPage);
+                tabControl1.TabPages.Remove(Supplier_tabPage);
+                tabControl1.TabPages.Remove(brigade_tabPage);
+                tabControl1.TabPages.Remove(work_tabPage);
+                tabControl1.TabPages.Remove(matCon_tabPage);
+            }
+            if (CurrentWorker.Job == "Главный инженер")
+            {
+                tabControl1.TabPages.Remove(Workers_tabPage);
+                //tabControl1.TabPages.Remove(clients_tabPage);
+                //tabControl1.TabPages.Remove(Materials_tabPage);
+                tabControl1.TabPages.Remove(Supplier_tabPage);
+                //tabControl1.TabPages.Remove(brigade_tabPage);
+                //tabControl1.TabPages.Remove(work_tabPage);
+                //tabControl1.TabPages.Remove(matCon_tabPage);
+            }
+            if (CurrentWorker.Job == "Генеральный директор")
+            {
+                //tabControl1.TabPages.Remove(Workers_tabPage);
+                tabControl1.TabPages.Remove(Materials_tabPage);
+                //tabControl1.TabPages.Remove(clients_tabPage);
+                //tabControl1.TabPages.Remove(projects_tabPage);
+                tabControl1.TabPages.Remove(Supplier_tabPage);
+                tabControl1.TabPages.Remove(brigade_tabPage);
+                tabControl1.TabPages.Remove(work_tabPage);
+                //tabControl1.TabPages.Remove(matCon_tabPage);
+            }
+            if (CurrentWorker.Job == "Главный бухгалтер")
+            {
+                tabControl1.TabPages.Remove(Workers_tabPage);
+                tabControl1.TabPages.Remove(Materials_tabPage);
+                //tabControl1.TabPages.Remove(clients_tabPage);
+                //tabControl1.TabPages.Remove(projects_tabPage);
+                tabControl1.TabPages.Remove(Supplier_tabPage);
+                tabControl1.TabPages.Remove(brigade_tabPage);
+                tabControl1.TabPages.Remove(work_tabPage);
+                //tabControl1.TabPages.Remove(matCon_tabPage);
+            }
+
         }
 
-        Worker worker;
+            Worker worker;
         Client client;
         Material material;
         Supplier supplier;
@@ -260,6 +316,11 @@ namespace CC
                 {
                     MessageBox.Show("Такие данные уже существуют!");
                 }
+            }
+
+            else
+            {
+                MessageBox.Show("Проверьте введенные данные!");
             }
         }
 
@@ -773,6 +834,15 @@ DateTime.Parse(                    cmpWork_dataGridView.CurrentRow.Cells[3].Valu
             UpdateWorkerForm updateWorkerForm = new UpdateWorkerForm();
             updateWorkerForm.FormClosed += (object se, FormClosedEventArgs ee) => { UpdateCurrentWorker(); };
             updateWorkerForm.ShowDialog();
+        }
+
+        private void ewFio_textBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }         
+        
         }
     }
 }

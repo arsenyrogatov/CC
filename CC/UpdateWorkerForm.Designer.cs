@@ -270,6 +270,7 @@
             this.ewFio_textBox.Name = "ewFio_textBox";
             this.ewFio_textBox.Size = new System.Drawing.Size(257, 25);
             this.ewFio_textBox.TabIndex = 3;
+            this.ewFio_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ewFio_textBox_KeyPress);
             // 
             // label10
             // 

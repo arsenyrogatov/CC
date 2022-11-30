@@ -162,6 +162,7 @@
             this.prFind_button = new System.Windows.Forms.Button();
             this.prFind_textBox = new System.Windows.Forms.TextBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.prStatus_comboBox = new System.Windows.Forms.ComboBox();
             this.prDoc_textBox = new System.Windows.Forms.TextBox();
             this.label71 = new System.Windows.Forms.Label();
             this.prType_textBox = new System.Windows.Forms.TextBox();
@@ -188,6 +189,47 @@
             this.label61 = new System.Windows.Forms.Label();
             this.projects_dataGridView = new System.Windows.Forms.DataGridView();
             this.work_tabPage = new System.Windows.Forms.TabPage();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.cPr_comboBox = new System.Windows.Forms.ComboBox();
+            this.label78 = new System.Windows.Forms.Label();
+            this.cStatus_comboBox = new System.Windows.Forms.ComboBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.cEnd_dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.cBegin_dateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.cWr_comboBox = new System.Windows.Forms.ComboBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.cAdd_button = new System.Windows.Forms.Button();
+            this.cUpdate_button = new System.Windows.Forms.Button();
+            this.label37 = new System.Windows.Forms.Label();
+            this.cmpWork_dataGridView = new System.Windows.Forms.DataGridView();
+            this.label35 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.wrType_textBox = new System.Windows.Forms.TextBox();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.wrBr_comboBox = new System.Windows.Forms.ComboBox();
+            this.label77 = new System.Windows.Forms.Label();
+            this.wrAdd_button = new System.Windows.Forms.Button();
+            this.wrUpdate_button = new System.Windows.Forms.Button();
+            this.wrId_label = new System.Windows.Forms.Label();
+            this.wrName_textBox = new System.Windows.Forms.TextBox();
+            this.label80 = new System.Windows.Forms.Label();
+            this.work_dataGridView = new System.Windows.Forms.DataGridView();
+            this.matCon_tabPage = new System.Windows.Forms.TabPage();
+            this.label73 = new System.Windows.Forms.Label();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.RashDel_button = new System.Windows.Forms.Button();
+            this.RashCount_numericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label74 = new System.Windows.Forms.Label();
+            this.RashMat_comboBox = new System.Windows.Forms.ComboBox();
+            this.label79 = new System.Windows.Forms.Label();
+            this.RashWork_comboBox = new System.Windows.Forms.ComboBox();
+            this.label81 = new System.Windows.Forms.Label();
+            this.RashAdd_button = new System.Windows.Forms.Button();
+            this.RashUpdate_button = new System.Windows.Forms.Button();
+            this.Rash_dataGridView = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.close_button = new System.Windows.Forms.Button();
             this.edit_linkLabel = new System.Windows.Forms.LinkLabel();
@@ -208,48 +250,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.prStatus_comboBox = new System.Windows.Forms.ComboBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.wrBr_comboBox = new System.Windows.Forms.ComboBox();
-            this.label77 = new System.Windows.Forms.Label();
-            this.wrAdd_button = new System.Windows.Forms.Button();
-            this.wrUpdate_button = new System.Windows.Forms.Button();
-            this.wrId_label = new System.Windows.Forms.Label();
-            this.wrName_textBox = new System.Windows.Forms.TextBox();
-            this.label80 = new System.Windows.Forms.Label();
-            this.work_dataGridView = new System.Windows.Forms.DataGridView();
-            this.label37 = new System.Windows.Forms.Label();
-            this.cmpWork_dataGridView = new System.Windows.Forms.DataGridView();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.cWr_comboBox = new System.Windows.Forms.ComboBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.cAdd_button = new System.Windows.Forms.Button();
-            this.cUpdate_button = new System.Windows.Forms.Button();
-            this.cBegin_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.cEnd_dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.cStatus_comboBox = new System.Windows.Forms.ComboBox();
-            this.label72 = new System.Windows.Forms.Label();
-            this.matCon_tabPage = new System.Windows.Forms.TabPage();
-            this.label73 = new System.Windows.Forms.Label();
-            this.panel12 = new System.Windows.Forms.Panel();
-            this.label74 = new System.Windows.Forms.Label();
-            this.RashMat_comboBox = new System.Windows.Forms.ComboBox();
-            this.label79 = new System.Windows.Forms.Label();
-            this.RashWork_comboBox = new System.Windows.Forms.ComboBox();
-            this.label81 = new System.Windows.Forms.Label();
-            this.RashAdd_button = new System.Windows.Forms.Button();
-            this.RashUpdate_button = new System.Windows.Forms.Button();
-            this.Rash_dataGridView = new System.Windows.Forms.DataGridView();
-            this.RashCount_numericUpDown = new System.Windows.Forms.NumericUpDown();
-            this.RashDel_button = new System.Windows.Forms.Button();
-            this.wrType_textBox = new System.Windows.Forms.TextBox();
-            this.cPr_comboBox = new System.Windows.Forms.ComboBox();
-            this.label78 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Workers_tabPage.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -278,15 +278,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.prPrice_numericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.projects_dataGridView)).BeginInit();
             this.work_tabPage.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cmpWork_dataGridView)).BeginInit();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.work_dataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cmpWork_dataGridView)).BeginInit();
-            this.panel11.SuspendLayout();
             this.matCon_tabPage.SuspendLayout();
             this.panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Rash_dataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.RashCount_numericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rash_dataGridView)).BeginInit();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -535,6 +535,7 @@
             this.ewJob_textBox.Name = "ewJob_textBox";
             this.ewJob_textBox.Size = new System.Drawing.Size(196, 25);
             this.ewJob_textBox.TabIndex = 13;
+            this.ewJob_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ewFio_textBox_KeyPress);
             // 
             // label15
             // 
@@ -587,6 +588,7 @@
             this.ewFio_textBox.Name = "ewFio_textBox";
             this.ewFio_textBox.Size = new System.Drawing.Size(257, 25);
             this.ewFio_textBox.TabIndex = 3;
+            this.ewFio_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ewFio_textBox_KeyPress);
             // 
             // label10
             // 
@@ -858,6 +860,7 @@
             this.ecFio_textBox.Name = "ecFio_textBox";
             this.ecFio_textBox.Size = new System.Drawing.Size(257, 25);
             this.ecFio_textBox.TabIndex = 3;
+            this.ecFio_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ewFio_textBox_KeyPress);
             // 
             // label30
             // 
@@ -1429,6 +1432,7 @@
             this.supName_textBox.Name = "supName_textBox";
             this.supName_textBox.Size = new System.Drawing.Size(255, 25);
             this.supName_textBox.TabIndex = 3;
+            this.supName_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ewFio_textBox_KeyPress);
             // 
             // label52
             // 
@@ -1752,6 +1756,18 @@
             this.panel9.Size = new System.Drawing.Size(315, 583);
             this.panel9.TabIndex = 22;
             // 
+            // prStatus_comboBox
+            // 
+            this.prStatus_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.prStatus_comboBox.FormattingEnabled = true;
+            this.prStatus_comboBox.Items.AddRange(new object[] {
+            "Активен",
+            "Завершен"});
+            this.prStatus_comboBox.Location = new System.Drawing.Point(74, 281);
+            this.prStatus_comboBox.Name = "prStatus_comboBox";
+            this.prStatus_comboBox.Size = new System.Drawing.Size(233, 25);
+            this.prStatus_comboBox.TabIndex = 51;
+            // 
             // prDoc_textBox
             // 
             this.prDoc_textBox.Location = new System.Drawing.Point(74, 343);
@@ -1998,6 +2014,455 @@
             this.work_tabPage.UseVisualStyleBackColor = true;
             this.work_tabPage.Enter += new System.EventHandler(this.work_tabPage_Enter);
             // 
+            // panel11
+            // 
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel11.Controls.Add(this.cPr_comboBox);
+            this.panel11.Controls.Add(this.label78);
+            this.panel11.Controls.Add(this.cStatus_comboBox);
+            this.panel11.Controls.Add(this.label72);
+            this.panel11.Controls.Add(this.cEnd_dateTimePicker);
+            this.panel11.Controls.Add(this.cBegin_dateTimePicker);
+            this.panel11.Controls.Add(this.label41);
+            this.panel11.Controls.Add(this.label49);
+            this.panel11.Controls.Add(this.cWr_comboBox);
+            this.panel11.Controls.Add(this.label56);
+            this.panel11.Controls.Add(this.cAdd_button);
+            this.panel11.Controls.Add(this.cUpdate_button);
+            this.panel11.Location = new System.Drawing.Point(723, 345);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(315, 280);
+            this.panel11.TabIndex = 37;
+            // 
+            // cPr_comboBox
+            // 
+            this.cPr_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cPr_comboBox.FormattingEnabled = true;
+            this.cPr_comboBox.Location = new System.Drawing.Point(74, 43);
+            this.cPr_comboBox.Name = "cPr_comboBox";
+            this.cPr_comboBox.Size = new System.Drawing.Size(233, 25);
+            this.cPr_comboBox.TabIndex = 42;
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Location = new System.Drawing.Point(3, 46);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(51, 17);
+            this.label78.TabIndex = 41;
+            this.label78.Text = "Проект";
+            // 
+            // cStatus_comboBox
+            // 
+            this.cStatus_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cStatus_comboBox.FormattingEnabled = true;
+            this.cStatus_comboBox.Items.AddRange(new object[] {
+            "Выполнено",
+            "Не выполнено"});
+            this.cStatus_comboBox.Location = new System.Drawing.Point(74, 136);
+            this.cStatus_comboBox.Name = "cStatus_comboBox";
+            this.cStatus_comboBox.Size = new System.Drawing.Size(233, 25);
+            this.cStatus_comboBox.TabIndex = 40;
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Location = new System.Drawing.Point(3, 139);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(45, 17);
+            this.label72.TabIndex = 39;
+            this.label72.Text = "Статус";
+            // 
+            // cEnd_dateTimePicker
+            // 
+            this.cEnd_dateTimePicker.Location = new System.Drawing.Point(74, 105);
+            this.cEnd_dateTimePicker.Name = "cEnd_dateTimePicker";
+            this.cEnd_dateTimePicker.Size = new System.Drawing.Size(232, 25);
+            this.cEnd_dateTimePicker.TabIndex = 38;
+            // 
+            // cBegin_dateTimePicker
+            // 
+            this.cBegin_dateTimePicker.Location = new System.Drawing.Point(74, 74);
+            this.cBegin_dateTimePicker.Name = "cBegin_dateTimePicker";
+            this.cBegin_dateTimePicker.Size = new System.Drawing.Size(232, 25);
+            this.cBegin_dateTimePicker.TabIndex = 37;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(3, 108);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(45, 17);
+            this.label41.TabIndex = 36;
+            this.label41.Text = "Конец";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(3, 77);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(53, 17);
+            this.label49.TabIndex = 34;
+            this.label49.Text = "Начало";
+            // 
+            // cWr_comboBox
+            // 
+            this.cWr_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cWr_comboBox.FormattingEnabled = true;
+            this.cWr_comboBox.Location = new System.Drawing.Point(74, 12);
+            this.cWr_comboBox.Name = "cWr_comboBox";
+            this.cWr_comboBox.Size = new System.Drawing.Size(233, 25);
+            this.cWr_comboBox.TabIndex = 33;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(3, 15);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(50, 17);
+            this.label56.TabIndex = 32;
+            this.label56.Text = "Работа";
+            // 
+            // cAdd_button
+            // 
+            this.cAdd_button.AutoSize = true;
+            this.cAdd_button.Location = new System.Drawing.Point(4, 200);
+            this.cAdd_button.Name = "cAdd_button";
+            this.cAdd_button.Size = new System.Drawing.Size(303, 27);
+            this.cAdd_button.TabIndex = 31;
+            this.cAdd_button.Text = "Добавить в выполненные";
+            this.cAdd_button.UseVisualStyleBackColor = true;
+            this.cAdd_button.Click += new System.EventHandler(this.cAdd_button_Click);
+            // 
+            // cUpdate_button
+            // 
+            this.cUpdate_button.AutoSize = true;
+            this.cUpdate_button.Location = new System.Drawing.Point(4, 167);
+            this.cUpdate_button.Name = "cUpdate_button";
+            this.cUpdate_button.Size = new System.Drawing.Size(303, 27);
+            this.cUpdate_button.TabIndex = 29;
+            this.cUpdate_button.Text = "Изменить данные о выполненной работе";
+            this.cUpdate_button.UseVisualStyleBackColor = true;
+            this.cUpdate_button.Click += new System.EventHandler(this.cUpdate_button_Click);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Italic);
+            this.label37.Location = new System.Drawing.Point(7, 312);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(199, 25);
+            this.label37.TabIndex = 32;
+            this.label37.Text = "Выполненная работа";
+            // 
+            // cmpWork_dataGridView
+            // 
+            this.cmpWork_dataGridView.AllowUserToAddRows = false;
+            this.cmpWork_dataGridView.AllowUserToDeleteRows = false;
+            this.cmpWork_dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.cmpWork_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.cmpWork_dataGridView.Location = new System.Drawing.Point(11, 345);
+            this.cmpWork_dataGridView.MultiSelect = false;
+            this.cmpWork_dataGridView.Name = "cmpWork_dataGridView";
+            this.cmpWork_dataGridView.ReadOnly = true;
+            this.cmpWork_dataGridView.RowHeadersVisible = false;
+            this.cmpWork_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.cmpWork_dataGridView.Size = new System.Drawing.Size(706, 280);
+            this.cmpWork_dataGridView.TabIndex = 31;
+            this.cmpWork_dataGridView.SelectionChanged += new System.EventHandler(this.cmpWork_dataGridView_SelectionChanged);
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Italic);
+            this.label35.Location = new System.Drawing.Point(7, 8);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(79, 25);
+            this.label35.TabIndex = 30;
+            this.label35.Text = "Работа";
+            // 
+            // panel10
+            // 
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.wrType_textBox);
+            this.panel10.Controls.Add(this.label75);
+            this.panel10.Controls.Add(this.label76);
+            this.panel10.Controls.Add(this.wrBr_comboBox);
+            this.panel10.Controls.Add(this.label77);
+            this.panel10.Controls.Add(this.wrAdd_button);
+            this.panel10.Controls.Add(this.wrUpdate_button);
+            this.panel10.Controls.Add(this.wrId_label);
+            this.panel10.Controls.Add(this.wrName_textBox);
+            this.panel10.Controls.Add(this.label80);
+            this.panel10.Location = new System.Drawing.Point(723, 41);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(315, 268);
+            this.panel10.TabIndex = 27;
+            // 
+            // wrType_textBox
+            // 
+            this.wrType_textBox.Location = new System.Drawing.Point(74, 70);
+            this.wrType_textBox.Name = "wrType_textBox";
+            this.wrType_textBox.Size = new System.Drawing.Size(233, 25);
+            this.wrType_textBox.TabIndex = 37;
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Location = new System.Drawing.Point(3, 104);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(65, 17);
+            this.label75.TabIndex = 36;
+            this.label75.Text = "Название";
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Location = new System.Drawing.Point(3, 73);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(29, 17);
+            this.label76.TabIndex = 34;
+            this.label76.Text = "Тип";
+            // 
+            // wrBr_comboBox
+            // 
+            this.wrBr_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.wrBr_comboBox.FormattingEnabled = true;
+            this.wrBr_comboBox.Location = new System.Drawing.Point(74, 39);
+            this.wrBr_comboBox.Name = "wrBr_comboBox";
+            this.wrBr_comboBox.Size = new System.Drawing.Size(233, 25);
+            this.wrBr_comboBox.TabIndex = 33;
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Location = new System.Drawing.Point(3, 42);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(56, 17);
+            this.label77.TabIndex = 32;
+            this.label77.Text = "Бригада";
+            // 
+            // wrAdd_button
+            // 
+            this.wrAdd_button.AutoSize = true;
+            this.wrAdd_button.Location = new System.Drawing.Point(4, 165);
+            this.wrAdd_button.Name = "wrAdd_button";
+            this.wrAdd_button.Size = new System.Drawing.Size(303, 27);
+            this.wrAdd_button.TabIndex = 31;
+            this.wrAdd_button.Text = "Добавить работу";
+            this.wrAdd_button.UseVisualStyleBackColor = true;
+            this.wrAdd_button.Click += new System.EventHandler(this.wrAdd_button_Click);
+            // 
+            // wrUpdate_button
+            // 
+            this.wrUpdate_button.AutoSize = true;
+            this.wrUpdate_button.Location = new System.Drawing.Point(4, 132);
+            this.wrUpdate_button.Name = "wrUpdate_button";
+            this.wrUpdate_button.Size = new System.Drawing.Size(303, 27);
+            this.wrUpdate_button.TabIndex = 29;
+            this.wrUpdate_button.Text = "Изменить данные о работе";
+            this.wrUpdate_button.UseVisualStyleBackColor = true;
+            this.wrUpdate_button.Click += new System.EventHandler(this.wrUpdate_button_Click);
+            // 
+            // wrId_label
+            // 
+            this.wrId_label.AutoSize = true;
+            this.wrId_label.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
+            this.wrId_label.Location = new System.Drawing.Point(49, 10);
+            this.wrId_label.Name = "wrId_label";
+            this.wrId_label.Size = new System.Drawing.Size(50, 17);
+            this.wrId_label.TabIndex = 25;
+            this.wrId_label.Text = "label20";
+            // 
+            // wrName_textBox
+            // 
+            this.wrName_textBox.Location = new System.Drawing.Point(74, 101);
+            this.wrName_textBox.Name = "wrName_textBox";
+            this.wrName_textBox.Size = new System.Drawing.Size(233, 25);
+            this.wrName_textBox.TabIndex = 3;
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Location = new System.Drawing.Point(3, 10);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(31, 17);
+            this.label80.TabIndex = 0;
+            this.label80.Text = "Код";
+            // 
+            // work_dataGridView
+            // 
+            this.work_dataGridView.AllowUserToAddRows = false;
+            this.work_dataGridView.AllowUserToDeleteRows = false;
+            this.work_dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.work_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.work_dataGridView.Location = new System.Drawing.Point(11, 41);
+            this.work_dataGridView.MultiSelect = false;
+            this.work_dataGridView.Name = "work_dataGridView";
+            this.work_dataGridView.ReadOnly = true;
+            this.work_dataGridView.RowHeadersVisible = false;
+            this.work_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.work_dataGridView.Size = new System.Drawing.Size(706, 268);
+            this.work_dataGridView.TabIndex = 26;
+            this.work_dataGridView.SelectionChanged += new System.EventHandler(this.work_dataGridView_SelectionChanged);
+            // 
+            // matCon_tabPage
+            // 
+            this.matCon_tabPage.Controls.Add(this.label73);
+            this.matCon_tabPage.Controls.Add(this.panel12);
+            this.matCon_tabPage.Controls.Add(this.Rash_dataGridView);
+            this.matCon_tabPage.Location = new System.Drawing.Point(4, 26);
+            this.matCon_tabPage.Name = "matCon_tabPage";
+            this.matCon_tabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.matCon_tabPage.Size = new System.Drawing.Size(1047, 633);
+            this.matCon_tabPage.TabIndex = 7;
+            this.matCon_tabPage.Text = "Расходы на работу";
+            this.matCon_tabPage.UseVisualStyleBackColor = true;
+            this.matCon_tabPage.Enter += new System.EventHandler(this.matCon_tabPage_Enter);
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Italic);
+            this.label73.Location = new System.Drawing.Point(5, 9);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(179, 25);
+            this.label73.TabIndex = 35;
+            this.label73.Text = "Расходы на работу";
+            // 
+            // panel12
+            // 
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.RashDel_button);
+            this.panel12.Controls.Add(this.RashCount_numericUpDown);
+            this.panel12.Controls.Add(this.label74);
+            this.panel12.Controls.Add(this.RashMat_comboBox);
+            this.panel12.Controls.Add(this.label79);
+            this.panel12.Controls.Add(this.RashWork_comboBox);
+            this.panel12.Controls.Add(this.label81);
+            this.panel12.Controls.Add(this.RashAdd_button);
+            this.panel12.Controls.Add(this.RashUpdate_button);
+            this.panel12.Location = new System.Drawing.Point(722, 43);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(315, 582);
+            this.panel12.TabIndex = 32;
+            // 
+            // RashDel_button
+            // 
+            this.RashDel_button.AutoSize = true;
+            this.RashDel_button.Location = new System.Drawing.Point(4, 166);
+            this.RashDel_button.Name = "RashDel_button";
+            this.RashDel_button.Size = new System.Drawing.Size(303, 27);
+            this.RashDel_button.TabIndex = 38;
+            this.RashDel_button.Text = "Удалить";
+            this.RashDel_button.UseVisualStyleBackColor = true;
+            this.RashDel_button.Click += new System.EventHandler(this.RashDel_button_Click);
+            // 
+            // RashCount_numericUpDown
+            // 
+            this.RashCount_numericUpDown.Location = new System.Drawing.Point(87, 69);
+            this.RashCount_numericUpDown.Maximum = new decimal(new int[] {
+            10000000,
+            0,
+            0,
+            0});
+            this.RashCount_numericUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.RashCount_numericUpDown.Name = "RashCount_numericUpDown";
+            this.RashCount_numericUpDown.Size = new System.Drawing.Size(220, 25);
+            this.RashCount_numericUpDown.TabIndex = 37;
+            this.RashCount_numericUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Location = new System.Drawing.Point(3, 72);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(78, 17);
+            this.label74.TabIndex = 36;
+            this.label74.Text = "Количество";
+            // 
+            // RashMat_comboBox
+            // 
+            this.RashMat_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RashMat_comboBox.FormattingEnabled = true;
+            this.RashMat_comboBox.Location = new System.Drawing.Point(87, 38);
+            this.RashMat_comboBox.Name = "RashMat_comboBox";
+            this.RashMat_comboBox.Size = new System.Drawing.Size(220, 25);
+            this.RashMat_comboBox.TabIndex = 35;
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Location = new System.Drawing.Point(3, 41);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(68, 17);
+            this.label79.TabIndex = 34;
+            this.label79.Text = "Материал";
+            // 
+            // RashWork_comboBox
+            // 
+            this.RashWork_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.RashWork_comboBox.FormattingEnabled = true;
+            this.RashWork_comboBox.Location = new System.Drawing.Point(87, 7);
+            this.RashWork_comboBox.Name = "RashWork_comboBox";
+            this.RashWork_comboBox.Size = new System.Drawing.Size(220, 25);
+            this.RashWork_comboBox.TabIndex = 33;
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Location = new System.Drawing.Point(3, 10);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(50, 17);
+            this.label81.TabIndex = 32;
+            this.label81.Text = "Работа";
+            // 
+            // RashAdd_button
+            // 
+            this.RashAdd_button.AutoSize = true;
+            this.RashAdd_button.Location = new System.Drawing.Point(4, 133);
+            this.RashAdd_button.Name = "RashAdd_button";
+            this.RashAdd_button.Size = new System.Drawing.Size(303, 27);
+            this.RashAdd_button.TabIndex = 31;
+            this.RashAdd_button.Text = "Добавить";
+            this.RashAdd_button.UseVisualStyleBackColor = true;
+            this.RashAdd_button.Click += new System.EventHandler(this.RashAdd_button_Click);
+            // 
+            // RashUpdate_button
+            // 
+            this.RashUpdate_button.AutoSize = true;
+            this.RashUpdate_button.Location = new System.Drawing.Point(4, 100);
+            this.RashUpdate_button.Name = "RashUpdate_button";
+            this.RashUpdate_button.Size = new System.Drawing.Size(303, 27);
+            this.RashUpdate_button.TabIndex = 29;
+            this.RashUpdate_button.Text = "Изменить данные";
+            this.RashUpdate_button.UseVisualStyleBackColor = true;
+            this.RashUpdate_button.Click += new System.EventHandler(this.RashUpdate_button_Click);
+            // 
+            // Rash_dataGridView
+            // 
+            this.Rash_dataGridView.AllowUserToAddRows = false;
+            this.Rash_dataGridView.AllowUserToDeleteRows = false;
+            this.Rash_dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.Rash_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Rash_dataGridView.Location = new System.Drawing.Point(10, 43);
+            this.Rash_dataGridView.MultiSelect = false;
+            this.Rash_dataGridView.Name = "Rash_dataGridView";
+            this.Rash_dataGridView.ReadOnly = true;
+            this.Rash_dataGridView.RowHeadersVisible = false;
+            this.Rash_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.Rash_dataGridView.Size = new System.Drawing.Size(706, 582);
+            this.Rash_dataGridView.TabIndex = 31;
+            this.Rash_dataGridView.SelectionChanged += new System.EventHandler(this.Rash_dataGridView_SelectionChanged);
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -2211,467 +2676,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Код";
             // 
-            // prStatus_comboBox
-            // 
-            this.prStatus_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.prStatus_comboBox.FormattingEnabled = true;
-            this.prStatus_comboBox.Items.AddRange(new object[] {
-            "Активен",
-            "Завершен"});
-            this.prStatus_comboBox.Location = new System.Drawing.Point(74, 281);
-            this.prStatus_comboBox.Name = "prStatus_comboBox";
-            this.prStatus_comboBox.Size = new System.Drawing.Size(233, 25);
-            this.prStatus_comboBox.TabIndex = 51;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Italic);
-            this.label35.Location = new System.Drawing.Point(7, 8);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(79, 25);
-            this.label35.TabIndex = 30;
-            this.label35.Text = "Работа";
-            // 
-            // panel10
-            // 
-            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Controls.Add(this.wrType_textBox);
-            this.panel10.Controls.Add(this.label75);
-            this.panel10.Controls.Add(this.label76);
-            this.panel10.Controls.Add(this.wrBr_comboBox);
-            this.panel10.Controls.Add(this.label77);
-            this.panel10.Controls.Add(this.wrAdd_button);
-            this.panel10.Controls.Add(this.wrUpdate_button);
-            this.panel10.Controls.Add(this.wrId_label);
-            this.panel10.Controls.Add(this.wrName_textBox);
-            this.panel10.Controls.Add(this.label80);
-            this.panel10.Location = new System.Drawing.Point(723, 41);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(315, 268);
-            this.panel10.TabIndex = 27;
-            // 
-            // label75
-            // 
-            this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(3, 104);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(65, 17);
-            this.label75.TabIndex = 36;
-            this.label75.Text = "Название";
-            // 
-            // label76
-            // 
-            this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(3, 73);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(29, 17);
-            this.label76.TabIndex = 34;
-            this.label76.Text = "Тип";
-            // 
-            // wrBr_comboBox
-            // 
-            this.wrBr_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.wrBr_comboBox.FormattingEnabled = true;
-            this.wrBr_comboBox.Location = new System.Drawing.Point(74, 39);
-            this.wrBr_comboBox.Name = "wrBr_comboBox";
-            this.wrBr_comboBox.Size = new System.Drawing.Size(233, 25);
-            this.wrBr_comboBox.TabIndex = 33;
-            // 
-            // label77
-            // 
-            this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(3, 42);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(56, 17);
-            this.label77.TabIndex = 32;
-            this.label77.Text = "Бригада";
-            // 
-            // wrAdd_button
-            // 
-            this.wrAdd_button.AutoSize = true;
-            this.wrAdd_button.Location = new System.Drawing.Point(4, 165);
-            this.wrAdd_button.Name = "wrAdd_button";
-            this.wrAdd_button.Size = new System.Drawing.Size(303, 27);
-            this.wrAdd_button.TabIndex = 31;
-            this.wrAdd_button.Text = "Добавить работу";
-            this.wrAdd_button.UseVisualStyleBackColor = true;
-            this.wrAdd_button.Click += new System.EventHandler(this.wrAdd_button_Click);
-            // 
-            // wrUpdate_button
-            // 
-            this.wrUpdate_button.AutoSize = true;
-            this.wrUpdate_button.Location = new System.Drawing.Point(4, 132);
-            this.wrUpdate_button.Name = "wrUpdate_button";
-            this.wrUpdate_button.Size = new System.Drawing.Size(303, 27);
-            this.wrUpdate_button.TabIndex = 29;
-            this.wrUpdate_button.Text = "Изменить данные о работе";
-            this.wrUpdate_button.UseVisualStyleBackColor = true;
-            this.wrUpdate_button.Click += new System.EventHandler(this.wrUpdate_button_Click);
-            // 
-            // wrId_label
-            // 
-            this.wrId_label.AutoSize = true;
-            this.wrId_label.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
-            this.wrId_label.Location = new System.Drawing.Point(49, 10);
-            this.wrId_label.Name = "wrId_label";
-            this.wrId_label.Size = new System.Drawing.Size(50, 17);
-            this.wrId_label.TabIndex = 25;
-            this.wrId_label.Text = "label20";
-            // 
-            // wrName_textBox
-            // 
-            this.wrName_textBox.Location = new System.Drawing.Point(74, 101);
-            this.wrName_textBox.Name = "wrName_textBox";
-            this.wrName_textBox.Size = new System.Drawing.Size(233, 25);
-            this.wrName_textBox.TabIndex = 3;
-            // 
-            // label80
-            // 
-            this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(3, 10);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(31, 17);
-            this.label80.TabIndex = 0;
-            this.label80.Text = "Код";
-            // 
-            // work_dataGridView
-            // 
-            this.work_dataGridView.AllowUserToAddRows = false;
-            this.work_dataGridView.AllowUserToDeleteRows = false;
-            this.work_dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.work_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.work_dataGridView.Location = new System.Drawing.Point(11, 41);
-            this.work_dataGridView.MultiSelect = false;
-            this.work_dataGridView.Name = "work_dataGridView";
-            this.work_dataGridView.ReadOnly = true;
-            this.work_dataGridView.RowHeadersVisible = false;
-            this.work_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.work_dataGridView.Size = new System.Drawing.Size(706, 268);
-            this.work_dataGridView.TabIndex = 26;
-            this.work_dataGridView.SelectionChanged += new System.EventHandler(this.work_dataGridView_SelectionChanged);
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Italic);
-            this.label37.Location = new System.Drawing.Point(7, 312);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(199, 25);
-            this.label37.TabIndex = 32;
-            this.label37.Text = "Выполненная работа";
-            // 
-            // cmpWork_dataGridView
-            // 
-            this.cmpWork_dataGridView.AllowUserToAddRows = false;
-            this.cmpWork_dataGridView.AllowUserToDeleteRows = false;
-            this.cmpWork_dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.cmpWork_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.cmpWork_dataGridView.Location = new System.Drawing.Point(11, 345);
-            this.cmpWork_dataGridView.MultiSelect = false;
-            this.cmpWork_dataGridView.Name = "cmpWork_dataGridView";
-            this.cmpWork_dataGridView.ReadOnly = true;
-            this.cmpWork_dataGridView.RowHeadersVisible = false;
-            this.cmpWork_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.cmpWork_dataGridView.Size = new System.Drawing.Size(706, 280);
-            this.cmpWork_dataGridView.TabIndex = 31;
-            this.cmpWork_dataGridView.SelectionChanged += new System.EventHandler(this.cmpWork_dataGridView_SelectionChanged);
-            // 
-            // panel11
-            // 
-            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Controls.Add(this.cPr_comboBox);
-            this.panel11.Controls.Add(this.label78);
-            this.panel11.Controls.Add(this.cStatus_comboBox);
-            this.panel11.Controls.Add(this.label72);
-            this.panel11.Controls.Add(this.cEnd_dateTimePicker);
-            this.panel11.Controls.Add(this.cBegin_dateTimePicker);
-            this.panel11.Controls.Add(this.label41);
-            this.panel11.Controls.Add(this.label49);
-            this.panel11.Controls.Add(this.cWr_comboBox);
-            this.panel11.Controls.Add(this.label56);
-            this.panel11.Controls.Add(this.cAdd_button);
-            this.panel11.Controls.Add(this.cUpdate_button);
-            this.panel11.Location = new System.Drawing.Point(723, 345);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(315, 280);
-            this.panel11.TabIndex = 37;
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(3, 108);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(45, 17);
-            this.label41.TabIndex = 36;
-            this.label41.Text = "Конец";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(3, 77);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(53, 17);
-            this.label49.TabIndex = 34;
-            this.label49.Text = "Начало";
-            // 
-            // cWr_comboBox
-            // 
-            this.cWr_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cWr_comboBox.FormattingEnabled = true;
-            this.cWr_comboBox.Location = new System.Drawing.Point(74, 12);
-            this.cWr_comboBox.Name = "cWr_comboBox";
-            this.cWr_comboBox.Size = new System.Drawing.Size(233, 25);
-            this.cWr_comboBox.TabIndex = 33;
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(3, 15);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(50, 17);
-            this.label56.TabIndex = 32;
-            this.label56.Text = "Работа";
-            // 
-            // cAdd_button
-            // 
-            this.cAdd_button.AutoSize = true;
-            this.cAdd_button.Location = new System.Drawing.Point(4, 200);
-            this.cAdd_button.Name = "cAdd_button";
-            this.cAdd_button.Size = new System.Drawing.Size(303, 27);
-            this.cAdd_button.TabIndex = 31;
-            this.cAdd_button.Text = "Добавить в выполненные";
-            this.cAdd_button.UseVisualStyleBackColor = true;
-            this.cAdd_button.Click += new System.EventHandler(this.cAdd_button_Click);
-            // 
-            // cUpdate_button
-            // 
-            this.cUpdate_button.AutoSize = true;
-            this.cUpdate_button.Location = new System.Drawing.Point(4, 167);
-            this.cUpdate_button.Name = "cUpdate_button";
-            this.cUpdate_button.Size = new System.Drawing.Size(303, 27);
-            this.cUpdate_button.TabIndex = 29;
-            this.cUpdate_button.Text = "Изменить данные о выполненной работе";
-            this.cUpdate_button.UseVisualStyleBackColor = true;
-            this.cUpdate_button.Click += new System.EventHandler(this.cUpdate_button_Click);
-            // 
-            // cBegin_dateTimePicker
-            // 
-            this.cBegin_dateTimePicker.Location = new System.Drawing.Point(74, 74);
-            this.cBegin_dateTimePicker.Name = "cBegin_dateTimePicker";
-            this.cBegin_dateTimePicker.Size = new System.Drawing.Size(232, 25);
-            this.cBegin_dateTimePicker.TabIndex = 37;
-            // 
-            // cEnd_dateTimePicker
-            // 
-            this.cEnd_dateTimePicker.Location = new System.Drawing.Point(74, 105);
-            this.cEnd_dateTimePicker.Name = "cEnd_dateTimePicker";
-            this.cEnd_dateTimePicker.Size = new System.Drawing.Size(232, 25);
-            this.cEnd_dateTimePicker.TabIndex = 38;
-            // 
-            // cStatus_comboBox
-            // 
-            this.cStatus_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cStatus_comboBox.FormattingEnabled = true;
-            this.cStatus_comboBox.Items.AddRange(new object[] {
-            "Выполнено",
-            "Не выполнено"});
-            this.cStatus_comboBox.Location = new System.Drawing.Point(74, 136);
-            this.cStatus_comboBox.Name = "cStatus_comboBox";
-            this.cStatus_comboBox.Size = new System.Drawing.Size(233, 25);
-            this.cStatus_comboBox.TabIndex = 40;
-            // 
-            // label72
-            // 
-            this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(3, 139);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(45, 17);
-            this.label72.TabIndex = 39;
-            this.label72.Text = "Статус";
-            // 
-            // matCon_tabPage
-            // 
-            this.matCon_tabPage.Controls.Add(this.label73);
-            this.matCon_tabPage.Controls.Add(this.panel12);
-            this.matCon_tabPage.Controls.Add(this.Rash_dataGridView);
-            this.matCon_tabPage.Location = new System.Drawing.Point(4, 26);
-            this.matCon_tabPage.Name = "matCon_tabPage";
-            this.matCon_tabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.matCon_tabPage.Size = new System.Drawing.Size(1047, 633);
-            this.matCon_tabPage.TabIndex = 7;
-            this.matCon_tabPage.Text = "Расходы на работу";
-            this.matCon_tabPage.UseVisualStyleBackColor = true;
-            this.matCon_tabPage.Enter += new System.EventHandler(this.matCon_tabPage_Enter);
-            // 
-            // label73
-            // 
-            this.label73.AutoSize = true;
-            this.label73.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Italic);
-            this.label73.Location = new System.Drawing.Point(5, 9);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(179, 25);
-            this.label73.TabIndex = 35;
-            this.label73.Text = "Расходы на работу";
-            // 
-            // panel12
-            // 
-            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Controls.Add(this.RashDel_button);
-            this.panel12.Controls.Add(this.RashCount_numericUpDown);
-            this.panel12.Controls.Add(this.label74);
-            this.panel12.Controls.Add(this.RashMat_comboBox);
-            this.panel12.Controls.Add(this.label79);
-            this.panel12.Controls.Add(this.RashWork_comboBox);
-            this.panel12.Controls.Add(this.label81);
-            this.panel12.Controls.Add(this.RashAdd_button);
-            this.panel12.Controls.Add(this.RashUpdate_button);
-            this.panel12.Location = new System.Drawing.Point(722, 43);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(315, 582);
-            this.panel12.TabIndex = 32;
-            // 
-            // label74
-            // 
-            this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(3, 72);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(78, 17);
-            this.label74.TabIndex = 36;
-            this.label74.Text = "Количество";
-            // 
-            // RashMat_comboBox
-            // 
-            this.RashMat_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.RashMat_comboBox.FormattingEnabled = true;
-            this.RashMat_comboBox.Location = new System.Drawing.Point(87, 38);
-            this.RashMat_comboBox.Name = "RashMat_comboBox";
-            this.RashMat_comboBox.Size = new System.Drawing.Size(220, 25);
-            this.RashMat_comboBox.TabIndex = 35;
-            // 
-            // label79
-            // 
-            this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(3, 41);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(68, 17);
-            this.label79.TabIndex = 34;
-            this.label79.Text = "Материал";
-            // 
-            // RashWork_comboBox
-            // 
-            this.RashWork_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.RashWork_comboBox.FormattingEnabled = true;
-            this.RashWork_comboBox.Location = new System.Drawing.Point(87, 7);
-            this.RashWork_comboBox.Name = "RashWork_comboBox";
-            this.RashWork_comboBox.Size = new System.Drawing.Size(220, 25);
-            this.RashWork_comboBox.TabIndex = 33;
-            // 
-            // label81
-            // 
-            this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(3, 10);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(50, 17);
-            this.label81.TabIndex = 32;
-            this.label81.Text = "Работа";
-            // 
-            // RashAdd_button
-            // 
-            this.RashAdd_button.AutoSize = true;
-            this.RashAdd_button.Location = new System.Drawing.Point(4, 133);
-            this.RashAdd_button.Name = "RashAdd_button";
-            this.RashAdd_button.Size = new System.Drawing.Size(303, 27);
-            this.RashAdd_button.TabIndex = 31;
-            this.RashAdd_button.Text = "Добавить";
-            this.RashAdd_button.UseVisualStyleBackColor = true;
-            this.RashAdd_button.Click += new System.EventHandler(this.RashAdd_button_Click);
-            // 
-            // RashUpdate_button
-            // 
-            this.RashUpdate_button.AutoSize = true;
-            this.RashUpdate_button.Location = new System.Drawing.Point(4, 100);
-            this.RashUpdate_button.Name = "RashUpdate_button";
-            this.RashUpdate_button.Size = new System.Drawing.Size(303, 27);
-            this.RashUpdate_button.TabIndex = 29;
-            this.RashUpdate_button.Text = "Изменить данные";
-            this.RashUpdate_button.UseVisualStyleBackColor = true;
-            this.RashUpdate_button.Click += new System.EventHandler(this.RashUpdate_button_Click);
-            // 
-            // Rash_dataGridView
-            // 
-            this.Rash_dataGridView.AllowUserToAddRows = false;
-            this.Rash_dataGridView.AllowUserToDeleteRows = false;
-            this.Rash_dataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
-            this.Rash_dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Rash_dataGridView.Location = new System.Drawing.Point(10, 43);
-            this.Rash_dataGridView.MultiSelect = false;
-            this.Rash_dataGridView.Name = "Rash_dataGridView";
-            this.Rash_dataGridView.ReadOnly = true;
-            this.Rash_dataGridView.RowHeadersVisible = false;
-            this.Rash_dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Rash_dataGridView.Size = new System.Drawing.Size(706, 582);
-            this.Rash_dataGridView.TabIndex = 31;
-            this.Rash_dataGridView.SelectionChanged += new System.EventHandler(this.Rash_dataGridView_SelectionChanged);
-            // 
-            // RashCount_numericUpDown
-            // 
-            this.RashCount_numericUpDown.Location = new System.Drawing.Point(87, 69);
-            this.RashCount_numericUpDown.Maximum = new decimal(new int[] {
-            10000000,
-            0,
-            0,
-            0});
-            this.RashCount_numericUpDown.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.RashCount_numericUpDown.Name = "RashCount_numericUpDown";
-            this.RashCount_numericUpDown.Size = new System.Drawing.Size(220, 25);
-            this.RashCount_numericUpDown.TabIndex = 37;
-            this.RashCount_numericUpDown.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // RashDel_button
-            // 
-            this.RashDel_button.AutoSize = true;
-            this.RashDel_button.Location = new System.Drawing.Point(4, 166);
-            this.RashDel_button.Name = "RashDel_button";
-            this.RashDel_button.Size = new System.Drawing.Size(303, 27);
-            this.RashDel_button.TabIndex = 38;
-            this.RashDel_button.Text = "Удалить";
-            this.RashDel_button.UseVisualStyleBackColor = true;
-            this.RashDel_button.Click += new System.EventHandler(this.RashDel_button_Click);
-            // 
-            // wrType_textBox
-            // 
-            this.wrType_textBox.Location = new System.Drawing.Point(74, 70);
-            this.wrType_textBox.Name = "wrType_textBox";
-            this.wrType_textBox.Size = new System.Drawing.Size(233, 25);
-            this.wrType_textBox.TabIndex = 37;
-            // 
-            // cPr_comboBox
-            // 
-            this.cPr_comboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cPr_comboBox.FormattingEnabled = true;
-            this.cPr_comboBox.Location = new System.Drawing.Point(74, 43);
-            this.cPr_comboBox.Name = "cPr_comboBox";
-            this.cPr_comboBox.Size = new System.Drawing.Size(233, 25);
-            this.cPr_comboBox.TabIndex = 42;
-            // 
-            // label78
-            // 
-            this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(3, 46);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(51, 17);
-            this.label78.TabIndex = 41;
-            this.label78.Text = "Проект";
-            // 
             // WorkerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -2730,20 +2734,20 @@
             ((System.ComponentModel.ISupportInitialize)(this.projects_dataGridView)).EndInit();
             this.work_tabPage.ResumeLayout(false);
             this.work_tabPage.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel11.ResumeLayout(false);
+            this.panel11.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.cmpWork_dataGridView)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.work_dataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.cmpWork_dataGridView)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
             this.matCon_tabPage.ResumeLayout(false);
             this.matCon_tabPage.PerformLayout();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Rash_dataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.RashCount_numericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Rash_dataGridView)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
