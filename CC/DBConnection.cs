@@ -8,7 +8,8 @@ namespace CC
 {
     public class DBConnection
     {
-        static string Server = "DESKTOP-OUCRF2M";
+        static string Server = @"DESKTOP-KUK6ICR\SQL";
+        //static string Server = "DESKTOP-OUCRF2M";
         static string Database = "СтроительнаяФирма";
         public static System.Data.SqlClient.SqlConnection connection = new System.Data.SqlClient.SqlConnection($"Data Source={Server};Initial Catalog=\"{Database}\";Integrated Security=True");
         public static void Open()

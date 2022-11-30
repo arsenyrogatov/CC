@@ -33,8 +33,7 @@ namespace CC
             
             if (ewFio_textBox.Text.Length > 0 && ewPas1_maskedTextBox.MaskCompleted
                 && ewPas2_maskedTextBox.MaskCompleted && ewJob_textBox.Text.Length > 0
-                && ewPhone_maskedTextBox.MaskCompleted && ewMail_textBox.Text.Length > 0
-                && ewFio_textBox.Text.All(char.IsLetter))
+                && ewPhone_maskedTextBox.MaskCompleted && ewMail_textBox.Text.Length > 0)
             {
                 Worker worker = new Worker(CurrentWorker.Id,
                     ewFio_textBox.Text, int.Parse(ewPas1_maskedTextBox.Text),

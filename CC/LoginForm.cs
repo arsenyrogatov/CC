@@ -28,6 +28,8 @@ namespace CC
                 WorkerForm workerForm = new WorkerForm();
                 workerForm.FormClosed += (object se, FormClosedEventArgs ee) => { Visible = true; };
                 Visible = false;
+                login_maskedTextBox.Clear();
+                pwd_maskedTextBox.Clear();
                 workerForm.ShowDialog();
             }
         }
