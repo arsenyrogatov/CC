@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WorkerForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Workers_tabPage = new System.Windows.Forms.TabPage();
             this.label38 = new System.Windows.Forms.Label();
@@ -250,6 +251,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.worker_pictureBox = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.Workers_tabPage.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -287,6 +289,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.RashCount_numericUpDown)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Rash_dataGridView)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.worker_pictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -2467,6 +2470,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.worker_pictureBox);
             this.panel1.Controls.Add(this.close_button);
             this.panel1.Controls.Add(this.edit_linkLabel);
             this.panel1.Controls.Add(this.Mail_label);
@@ -2580,12 +2584,12 @@
             // FIO_label
             // 
             this.FIO_label.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Italic);
-            this.FIO_label.Location = new System.Drawing.Point(3, 11);
+            this.FIO_label.Location = new System.Drawing.Point(51, 3);
             this.FIO_label.Name = "FIO_label";
-            this.FIO_label.Size = new System.Drawing.Size(234, 38);
+            this.FIO_label.Size = new System.Drawing.Size(186, 43);
             this.FIO_label.TabIndex = 10;
             this.FIO_label.Text = "ФИО";
-            this.FIO_label.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.FIO_label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Id_label
             // 
@@ -2676,6 +2680,16 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Код";
             // 
+            // worker_pictureBox
+            // 
+            this.worker_pictureBox.Image = global::CC.Properties.Resources._base;
+            this.worker_pictureBox.Location = new System.Drawing.Point(3, 3);
+            this.worker_pictureBox.Name = "worker_pictureBox";
+            this.worker_pictureBox.Size = new System.Drawing.Size(43, 43);
+            this.worker_pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.worker_pictureBox.TabIndex = 20;
+            this.worker_pictureBox.TabStop = false;
+            // 
             // WorkerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -2686,6 +2700,7 @@
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "WorkerForm";
@@ -2748,6 +2763,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Rash_dataGridView)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.worker_pictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2976,5 +2992,6 @@
         private System.Windows.Forms.TextBox wrType_textBox;
         private System.Windows.Forms.ComboBox cPr_comboBox;
         private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.PictureBox worker_pictureBox;
     }
 }

@@ -19,59 +19,55 @@ namespace CC
             ewBirth_dateTimePicker.MaxDate = DateTime.Now.AddYears(-18);
             matEd_comboBox.SelectedIndex = 0;
 
-            if (CurrentWorker.Job == "Менеджер по продажам")
+            if (CurrentWorker.Job == "Менеджер по продажам") //salesman
             {
                 tabControl1.TabPages.Remove(Workers_tabPage);
-                //tabControl1.TabPages.Remove(Materials_tabPage);
                 tabControl1.TabPages.Remove(clients_tabPage);
-                //tabControl1.TabPages.Remove(projects_tabPage);
                 tabControl1.TabPages.Remove(Supplier_tabPage);
                 tabControl1.TabPages.Remove(brigade_tabPage);
                 tabControl1.TabPages.Remove(work_tabPage);
                 tabControl1.TabPages.Remove(matCon_tabPage);
+                worker_pictureBox.Image = Properties.Resources.salesman;
             }
-            if (CurrentWorker.Job == "Аритектор")
+            else if (CurrentWorker.Job == "Аритектор") //architect
             {
                 tabControl1.TabPages.Remove(Workers_tabPage);
                 tabControl1.TabPages.Remove(Materials_tabPage);
                 tabControl1.TabPages.Remove(clients_tabPage);
-                //tabControl1.TabPages.Remove(projects_tabPage);
                 tabControl1.TabPages.Remove(Supplier_tabPage);
                 tabControl1.TabPages.Remove(brigade_tabPage);
                 tabControl1.TabPages.Remove(work_tabPage);
                 tabControl1.TabPages.Remove(matCon_tabPage);
+                worker_pictureBox.Image = Properties.Resources.architect;
             }
-            if (CurrentWorker.Job == "Главный инженер")
+            else if (CurrentWorker.Job == "Главный инженер") //engineer
             {
                 tabControl1.TabPages.Remove(Workers_tabPage);
-                //tabControl1.TabPages.Remove(clients_tabPage);
-                //tabControl1.TabPages.Remove(Materials_tabPage);
                 tabControl1.TabPages.Remove(Supplier_tabPage);
-                //tabControl1.TabPages.Remove(brigade_tabPage);
-                //tabControl1.TabPages.Remove(work_tabPage);
-                //tabControl1.TabPages.Remove(matCon_tabPage);
+                worker_pictureBox.Image = Properties.Resources.engineer;
             }
-            if (CurrentWorker.Job == "Генеральный директор")
+            else if (CurrentWorker.Job == "Генеральный директор") //director
             {
-                //tabControl1.TabPages.Remove(Workers_tabPage);
                 tabControl1.TabPages.Remove(Materials_tabPage);
-                //tabControl1.TabPages.Remove(clients_tabPage);
-                //tabControl1.TabPages.Remove(projects_tabPage);
                 tabControl1.TabPages.Remove(Supplier_tabPage);
                 tabControl1.TabPages.Remove(brigade_tabPage);
                 tabControl1.TabPages.Remove(work_tabPage);
-                //tabControl1.TabPages.Remove(matCon_tabPage);
+                worker_pictureBox.Image = Properties.Resources.director;
             }
-            if (CurrentWorker.Job == "Главный бухгалтер")
+            else if (CurrentWorker.Job == "Главный бухгалтер")
             {
                 tabControl1.TabPages.Remove(Workers_tabPage);
                 tabControl1.TabPages.Remove(Materials_tabPage);
-                //tabControl1.TabPages.Remove(clients_tabPage);
-                //tabControl1.TabPages.Remove(projects_tabPage);
                 tabControl1.TabPages.Remove(Supplier_tabPage);
                 tabControl1.TabPages.Remove(brigade_tabPage);
                 tabControl1.TabPages.Remove(work_tabPage);
-                //tabControl1.TabPages.Remove(matCon_tabPage);
+                worker_pictureBox.Image = Properties.Resources.accountant;
+            }
+            else
+            {
+                tabControl1.Visible = false;
+                Size = new Size(286, 726);
+                //1344; 726
             }
 
         }

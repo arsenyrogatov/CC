@@ -35,6 +35,9 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>img\Skyscrapers.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -106,6 +109,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\accountant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\architect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\director.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\engineer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\salesman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\base.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\Skyscrapers.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\q.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
